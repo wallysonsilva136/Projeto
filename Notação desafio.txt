@@ -1,0 +1,82 @@
+﻿
+Processo seletivo para vaga de programador
+Sobre a empresa: Com sede na cidade de Blumenau, a ------ focada na prestação
+de serviços de consultoria e implementação de soluções de negócios na área de tecnologia da informação.Com grande experiência no mercado, conta com uma equipe de profissionais
+diferenciados e altamente qualificados, proporcionando aos seus clientes um atendimento de
+excelência.
+Atualmente atuamos com prestação de serviços na área de saúde, gestão de RH,
+videomonitoramento e multiárea (um sistema de processo).
+Desafio
+Para ajudar nesse problema, você deverá criar um sistema em sua plataforma de
+preferência que permita a gestão de materiais e de comentários sobre cada um dos materiais
+disponíveis na base de dados.
+Nesse sistema, os usuários poderão inserir comentários e fazer configurações e/ou
+qualquer outro compartilhamento de informação sobre o material.
+Além disso, você deverá manter um relatório/histórico de todos os materiais com seus
+respectivos comentários já inseridos no sistema. O sistema desenvolvido deverá conter uma
+área de login, recursos para cadastrar e excluir os materiais e recursos para exibição e inserção
+de comentários para cada material. Abaixo você verá detalhadamente as entregas que deverão
+ser efetuadas e quais requisitos elas deverão cumprir.
+Entregas ao final desse projeto que você terá que entregar:
+N° Nome da entrega Descrição da entrega
+1 Diagrama de
+Entidade-Relacionamento (DER)
+Criação de um diagrama
+entidade-relacionamento de banco de dados
+que representa o cenário proposto acima.
+2 Modelo de entidade e relacionamento
+(MER).
+Criação de um modelo de entidade-relacionamento de
+banco de dados que representa a estrutura das tabelas
+do cenário proposto.
+3 Banco de dados e importação de
+dados.
+Criação de banco de dados e importação dos dados
+presentes nos arquivos materiais.csv, usuarios.csv,
+comentários.csv, para alimentar as principais tabelas
+que o sistema precisa possuir.
+4 Diagrama de atividade de inclusão de
+materiais (BPMN).
+Criação de um diagrama de atividade querepresente o
+cenário em que o usuário registra
+um material no sistema.
+5 Tela para controle de acesso. Criação de uma tela que controle o acesso aos recursos
+do sistema. Esta tela será a tela de login d usuários.
+6 Tela para listagem de materiais. Criação de uma tela para listagem de materiais.
+7 Recurso para listagem de comentários. Criação de um recurso para registro de
+comentários para um material.
+8 Recurso para cadastro de comentários. Criação de um recurso para cadastro de
+comentário do material
+9 Recurso para cadastro de materiais. Criação de um recurso para registro de novos
+material.
+
+1. Diagrama Entidade-Relacionamento (DER)
+Você deve criar um diagrama entidade-relacionamento que contenha as tabelas,
+relações, campos do banco de dados previsto por você para atendimento ao cenário proposto
+acima. Ao criar seu diagrama, leve também em consideração a base de dados fornecida.
+O diagrama criado deve ser exportado em formato *.pdf.
+
+2. Modelo Entidade-Relacionamento (MER)
+Você deve criar um modelo entidade-relacionamento que contenha as tabelas, relações,
+campos e chaves do banco de dados previsto por você para atendimento ao cenário proposto
+acima. Ao criar seu modelo, leve também em consideração a base de dados fornecida.
+O modelo criado deve ser exportado em formato *.pdf.
+
+3. Banco de dados e Importação de dados
+Para essa entrega você deve criar toda a estrutura física de banco de dados com suas
+respectivas tabelas, relacionamentos e consultas/views necessários para atender a proposta do
+cenário acima.
+O banco de dados criado deve considerar a estrutura projetada no diagrama entidaderelacionamento construído por você. Importe os dados presentes nos arquivos materiais.csv,
+usuario.csv e comentario.csv, para tabelas equivalentes do banco de dados criadopor você.
+Lembre-se que somente poderão realizar login no sistema usuários que existam na
+tabela de usuários que deve possuir dados importados por você.
+O banco de dados criado deve ter sua estrutura e dados exportados para um arquivo em
+formato *.SQL.
+
+4. Diagrama de atividades de inclusão de material (BPMN)
+Você deve criar um diagrama de atividades que represente os passos do login do usuário
+administrador e o registro de um novo material no sistema. Você precisará entregar um
+documento em formato *.pdf, contendo atividades, transições e ações que representam esse
+cenário.
+
+
