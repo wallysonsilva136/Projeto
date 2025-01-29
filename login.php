@@ -31,7 +31,7 @@ require_once "include/header.php";
 					</div>      
 <p>Cadastre-se abaixo:</p>
                     <div class="container-login100-form-btn m-t-32">
-                    <a class="login100-form-btn" href="http://localhost/Projeto/cadastrar.php">Cadastrar</a>
+                    <a class="login100-form-btn" href="cadastrar.php">Cadastrar</a>
 					</div>
 				</form>
 			</div>
